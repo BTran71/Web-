@@ -11,7 +11,11 @@
           <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pass">
           <label for="pwd">Mật khẩu</label>
           <div id="emailhelp" class="form-text mb-3 mt-2"><a href="">Quên mật khẩu</a></div>
-          
+          <?php
+          if(isset($txt_error)&&($txt_error!="")) {
+            echo "<font color='red'>".$txt_error."</font>";
+          }
+          ?>
         </div>
         <input type="submit" class="btn btn-primary mb-3 mt-3 custom" name="login" value="Đăng nhập">
       </form>
