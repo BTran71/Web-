@@ -7,6 +7,10 @@
     include "model/adminhv.php";
     if(isset($_GET['act'])){
         switch ($_GET['act']) {
+            case 'thoat':
+                unset($_SESSION['role']);
+                header('location:index.php');  
+                break;
             case 'qlgv':
                 $kq=getall_gv();
                 include "admingv.php";  
