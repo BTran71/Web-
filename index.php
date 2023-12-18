@@ -18,22 +18,23 @@
                 if(isset($_POST['login'])&& ($_POST['login'])){
                     $user=$_POST['user'];
                     $pass=$_POST['pass'];
-                    $kq=getuser_info($user,$pass);
-                    $role=$kq[0]['role'];
-                    if($kq[0]['role']==1){
-                       $_SESSION['role']=$role;
+                    $role=checkuser($user,$pass);
+                    $_SESSION['role']=$role;
+                    if($role==1){
                         if(isset($_SESSION['role'])&&($_SESSION['role']==1))
                             header('location:indexadmin.php'); 
+                        else if(isset($_SESSION['role'])&&($_SESSION['role']==0))
+                        {
+                            header('location:indexadmin'); 
+                        }
                     }
-                    else if($kq[0]['role']==0){
-                        $_SESSION['role']=$role;
-                        header('location:index.php?act=dangnhap'); 
-                    }
+                    
                     else{
-                        $txt_error="Nhập sai toàn khoản hoặc mật khẩu";
-                        header('location:index.php?act=dangnhap'); 
+                        $txt_error="Nhập sai tài khoản hoặc mật khẩu"; 
+                        include "view/dangnhap.php";
                     }
                 }
+                //include "view/dangnhap.php";
                 break;
             default:
                 # code...
