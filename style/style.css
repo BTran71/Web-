@@ -1,0 +1,189 @@
+/*Header*/
+.bgmenu{
+    background-color: #00335a;
+}
+.textcolor{
+    color: #FFFFF0;
+}
+.introduce{
+    background-color: #F8F8FF;
+}
+.khunghinh{
+    padding: 5px;
+    margin: 3px;
+    float:left;
+    width: 385px;
+}
+.chu{
+    text-align: left;
+    font-size: 23px;
+}
+.banner{
+    width:100%;
+    height:400px
+}
+.khoangcach{
+    padding: 15px;
+}
+.hinh{
+    height: 200px;
+}
+.chutuvan{
+    text-align: center;
+}
+.form{
+    width: 450px;
+    margin: 7px;
+}
+.rowstyle{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+}
+.rowstyle:last-child{
+    position: relative;
+    left:70px;
+}
+.trangchu{
+    width: 100%;
+    background-color: #F8F8FF;
+}
+/*Footer*/
+footer li{
+    float: none;
+    list-style: none;
+    display: inline;
+}
+.footer1{
+    background-color: #00335a;
+    color: #FFFFF0;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+footer li a{
+    color: #FFFFF0;
+    padding: 15px;
+    width: 43px;
+    height:44px;
+    font-size: 28px;
+}
+.submitbutton{
+    margin-top: 6px;
+    margin-left: 555px;
+}
+.nav-link:hover{
+    font-size: large;
+    color:  #FFFFF0;
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+body{
+    overflow-x: hidden;
+}
+.bi:hover{
+    font-size: 34px;
+    color:  #FFFFF0;
+}
+/*Login*/
+.btn-login{
+    padding: 12px 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    outline: none;
+    display: table;
+    cursor: pointer;
+    margin: 15px auto 31px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.section-login{
+    min-height: 700px;
+    background: #FEC09B;
+    width: 100%;
+}
+.form-background{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.form-background > h3{
+    text-align: center;
+    margin-top: 30px;
+}
+body{
+    background-color: #F8F8FF;
+}
+.khung{
+    width: 30%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 170px;
+    margin-left: 36%;
+    background-image: url('img/');
+}
+.custom{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg,rgba(2,0,36,1) 0%,rgba(75,14,154,1) 35%,rgba(0,212,255,1) 100%);
+}
+/*Chuong trình học*/
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    margin-top: 100px;
+}
+.blue-btn{
+    border: 1px solid #00335a;
+    background: transparent;
+    color: #00335a;
+}
+.blue-btn:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3{
+    text-align: left;
+}
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing:border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.comment-form button{
+    margin: 10px 0;
+}
+.header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/minibanner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position:relative;
+}
