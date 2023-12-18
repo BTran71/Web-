@@ -8,6 +8,7 @@
               <h3 >Thêm thông tin học viên</h3>
             </div> 
           </div>
+          <p>Test Thử</p>
           <form action="indexadmin.php?act=hv_insert" method="post" enctype="multipart/form-data">
           <div class="row rowstyle" >
             <div class="col col-sm-4 col-md-4 col-lg-4 updategv" >
