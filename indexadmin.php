@@ -28,7 +28,7 @@
                     $sdt=$_POST['sdt'];
                     $birthday=$_POST['ngaysinh'];
                     $luong=$_POST['luong'];
-                    if ((kiem_tra($name)==true)&&(kiem_trasdt($sdt))){
+                    if ((kiem_tra($name)==true)&&(is_numeric($sdt))){
                         update_gv($id,$name,$email,$sdt,$birthday,$luong);
                     }
                 }
