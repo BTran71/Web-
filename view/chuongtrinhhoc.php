@@ -14,7 +14,7 @@
           <div class="mt-4 p-5 introduce text-white rounded">
             <div class="col-sm-12 col-md-4 col-lg-4 khunghinh">
               <div class="card">
-                <img class="card-img-top hinh" src="img/hinh6.jpg" alt="Card image">
+                <img class="card-img-top hinh" src="img/pilot.jpg" alt="Card image">
                 <div class="card-body">
                   <p class="chu"><b>English Essentials</b></p>
                   <p>Khóa học này giúp bạn học các kiến thức tiếng Anh cơ bản như phát âm, ngữ pháp, từ vựng.</p>
@@ -23,7 +23,7 @@
               </div>
               <div class="col-sm-12 col-md-4 col-lg-4 khunghinh">
                 <div class="card">
-                  <img class="card-img-top hinh" src="img/hinh5.jpg" alt="Card image" >
+                  <img class="card-img-top hinh" src="img/toefl.jpg" alt="Card image" >
                   <div class="card-body">
                     <p class="chu"><b>Fluent Fluency</b></p>
                     <p>Khóa học này giúp bạn học cách giao tiếp tiếng Anh trong các tình huống hàng ngày.</p>
@@ -32,7 +32,7 @@
               </div>
               <div class="col-sm-12 col-md-4 col-lg-4 khunghinh">
                 <div class="card">
-                  <img class="card-img-top hinh" src="img/hinh4.jpg" alt="Card image">
+                  <img class="card-img-top hinh" src="img/ieltstm.jpg" alt="Card image">
                   <div class="card-body">
                     <p class="chu"><b>Business English for Success</b></p>
                     <p>Khóa học này giúp bạn học tiếng Anh chuyên ngành cho các chuyên ngành kinh doanh.</p>
@@ -47,7 +47,7 @@
         <div class="mt-4 p-5 introduce text-white rounded">
           <div class="col-sm-12 col-md-4 col-lg-4 khunghinh">
             <div class="card">
-              <img class="card-img-top hinh" src="img/hinh7.jpg" alt="Card image">
+              <img class="card-img-top hinh" src="img/beginner.jpg" alt="Card image">
               <div class="card-body">
                 <p class="chu"><b>TOEFL Triumph</b></p>
                 <p>Khóa học luyện thi TOEFL được thiết kế dành cho những người học muốn đạt điểm cao trong kỳ thi TOEFL </p>
@@ -56,7 +56,7 @@
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 khunghinh">
               <div class="card">
-                <img class="card-img-top hinh" src="img/hinh8.jpg" alt="Card image" >
+                <img class="card-img-top hinh" src="img/business.jpg" alt="Card image" >
                 <div class="card-body">
                   <p class="chu"><b>IELTS Edge</b></p>
                   <p>Khóa học này cung cấp cho học viên kiến thức và kỹ năng cần thiết để thành công trong kỳ thi IELTS</p>
@@ -65,7 +65,7 @@
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 khunghinh">
               <div class="card">
-                <img class="card-img-top hinh" src="img/hinh9.jpg" alt="Card image">
+                <img class="card-img-top hinh" src="img/english.jpg" alt="Card image">
                 <div class="card-body">
                   <p class="chu"><b>Aviation English for Pilots</b></p>
                   <p>Khóa học tiếng Anh chuyên ngành để nâng cao khả năng sử dụng tiếng Anh trong môi trường hàng không</p>
