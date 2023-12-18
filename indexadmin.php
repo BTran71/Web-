@@ -113,15 +113,7 @@
                         insert_hv($id,$name,$email,$sdt,$lop,$hp);
                     }
                     else{
-                        echo "<div class='toast show'>
-                        <div class='toast-header'>
-                          Lỗi
-                          <button type='button' class='btn-close' data-bs-dismiss='toast'></button>
-                        </div>
-                        <div class='toast-body'>
-                          Nhập không đúng cú pháp
-                        </div>
-                      </div>";
+                        
                     }
                 }
                 $kq=getall_hv();
